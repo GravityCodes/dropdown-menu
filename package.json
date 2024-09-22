@@ -1,0 +1,37 @@
+{
+  "name": "dropdown-menu",
+  "version": "1.0.0",
+  "description": "A dropdown menu for nav links.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpack.config.js",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GravityCodes/dropdown-menu.git"
+  },
+  "keywords": [
+    "dropdown-menu"
+  ],
+  "author": "Johan Mesa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GravityCodes/dropdown-menu/issues"
+  },
+  "homepage": "https://github.com/GravityCodes/dropdown-menu#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.11.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.11.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.9.0",
+    "html-webpack-plugin": "^5.6.0",
+    "prettier": "3.3.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
